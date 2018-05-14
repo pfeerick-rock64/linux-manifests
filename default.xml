@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="ayufan"
+  <remote  name="pfeerick"
            fetch="."
-           review="https://github.com/ayufan-rock64/" />
+           review="https://github.com/pfeerick-rock64/" />
   <remote  name="github"
            fetch="https://github.com/" />
   <default revision="master"
-           remote="ayufan"
+           remote="pfeerick"
            sync-j="4" />
 
   <project path="kernel" name="linux-kernel" revision="release-4.4" groups="tagged" />
